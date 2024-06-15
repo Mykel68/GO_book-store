@@ -14,7 +14,8 @@ func main() {
 
 	bookings := []string{}
 
-	var firstName string
+	for {
+		var firstName string
 	var lastName string
 	var email string
 	var userTickets uint
@@ -36,6 +37,7 @@ func main() {
 	
 	bookings = append(bookings, firstName + " " + lastName)
 
+
 	fmt.Printf("The whole slice: %v\n", bookings)
 	fmt.Printf("The first value: %v\n", bookings[0])
 	fmt.Printf("Slice type %T\n", bookings)
@@ -46,6 +48,9 @@ func main() {
 	fmt.Printf("%v tickets remaining for %v\n", RemainingTickets, conferenceName)
 
 	fmt.Printf("These are all the bookings: %v\n", bookings)
+	}
+
+	
 
 
 }

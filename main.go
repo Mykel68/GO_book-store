@@ -8,4 +8,13 @@ func main() {
 
 	fmt.Printf("Total tickets %v\n", TotalTickets)
 
+	var userName string
+	var userTickets int
+	// ask user for their name
+
+	userName = "Mykel"
+	userTickets = 2
+
+	fmt.Printf("User: %v booked %v tickets\n", userName, userTickets)
+
 }

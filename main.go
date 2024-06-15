@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 func main() {
-	fmt.Print(`Welcome to our my booking application
+	fmt.Printf(`Welcome to our my booking application
 	`)
 	const TotalTickets = 50
 
